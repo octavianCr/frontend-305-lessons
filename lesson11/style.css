@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+
+body {
+    background-color: #FEEFE3;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    margin: 0%;
+}
+
+.landing {
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    /* unable to add the whole background */
+    /* !!!!!!!!!!NEEDS FIX !!!!!!!!!! */
+}
+
+.navigatin {
+    display: flex;
+    padding-top: 4vh;
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    justify-content: space-between;
+}
+
+.top-left_logo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.top-left_logo > img {
+height: 25px;
+}
+
+.top-left_logo > p {
+    margin-left: 1vw;
+    position: relative;
+    bottom: 1vh;
+}
+
+.nav-middle_items {
+    font-size: 16px;
+    color: #7D8790;
+    width: 40vw;
+    display: flex;
+   
+}
+
+.nav-middle_items > ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.nav-middle_items > ul > :first-child {
+    color: #ED9B59;
+}
+
+.nav-right_buttons {
+    width: 15vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-right_buttons > :first-child {
+    background-color: transparent;
+    color: #7D8790;
+    border: none;
+    font-weight: 700;
+}
+
+#Register-btn_nav {
+    background-color: #ED9B59 ;
+    width: 146px;
+    height: 52px;
+    border: none;
+    border-radius: 35px;
+    font-weight: 700;
+    color: #F4EBE6;
+}
+
+.section-one {
+display: flex;
+flex-direction: column;
+height: 50vw;
+width: 50vw;
+margin-left: 5vw;
+margin-top: 12vh;
+}
+
+#orange-text_span_section-one {
+    color: #ED9B59;
+}
+
+.top-orange_text {
+    font-size: 14px;
+    color: #ED9B59;
+}
+
+.main-content_top {
+    text-shadow: 1px 4px rgb(208, 190, 175);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 101.8%;
+    letter-spacing: -0.01em;
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    bottom: 30px;
+}
+
+.main-content_bottom {
+   color: #CCCCCC; 
+   line-height: 30px;
+   position: relative;
+   bottom: 7vh;
+}
+
+.enter-email_input-field {
+    display: flex;
+}
+
+
+.enter-email_input-field > pre > input {
+    width: 480px;
+height: 57px;
+border-radius: 35px;
+border: none;
+color: #CCCCCC;
+outline: none;
+text-align: left ;
+font-size: 15px;
+/* Find out why the text starts  at the very left, move it to the right of the icon */
+}
+
+.enter-email_input-field > pre > input::placeholder {
+   color: #CCCCCC;
+}
+
+.enter-email_input-field > span {
+    color: #CCCCCC;
+    position: relative;
+    right: 459px;
+    top: 29px;
+    
+}
+
+.enter-email_input-field > button {
+    background-color: #ED9B59 ;
+    width: 130px;
+    height: 44px;
+    border: none;
+    border-radius: 35px;
+    font-weight: 700;
+    color: #F4EBE6;
+    position: relative;
+    right: 170px;
+    top: 21px;
+}
+
+.bottom_values {
+    margin-left: 1.45vw;
+    position: fixed;
+    bottom: 95px;
+    display: flex;
+    width: 35vw;
+    justify-content: space-evenly;
+}
+
+#bottom_values-a {
+    font-weight: 900;
+    font-size: 44px;
+    margin: 0;
+    text-shadow: 1px 1px #000000;
+    line-height: 71px;
+    letter-spacing: -4px;
+}
+
+#bottom_values-b {
+    font-weight: 400;
+    font-size: 13px; 
+    margin: 0; 
+    line-height: 24px;
+}
+
+#bottom_values-a2 {
+    font-weight: 900;
+    font-size: 44px;
+    margin: 0;
+    text-shadow: 1px 1px #B25E21;
+    line-height: 71px;
+    letter-spacing: -4px;
+    color:  #B25E21;
+}
+
+.picture-and-floating-items_right{
+    float: right;
+    width: 50vw;
+    height: 87vh;
+    position: relative;
+   bottom: 110vh;
+   overflow: hidden;
+}
+

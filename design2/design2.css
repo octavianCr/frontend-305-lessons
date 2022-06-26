@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+    
+}
+/* vw vh */
+.BoxOnTheRight {
+    width: 27vw ;
+    height: 20vh;
+    background-color: white;
+    margin: 0 0 0 29%x;
+}
+
+
+.BoxOnTheleft {
+    width: 50vw ;
+    background-color: transparent; 
+    
+}
