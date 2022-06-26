@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+
+
+.BigBox{
+    max-width: 100vw;
+    text-align: center;
+    border-style:transparent ;
+    border-width: 1px;
+    border-color: rgb(142, 142, 142);
+    width: 45vw;
+    height: auto;
+    margin-left:25vw ;
+    margin-top: 12vh ;
+    border-radius: 3%;
+   
+    -webkit-box-shadow: 0 0 10px lightgrey;
+        box-shadow: 0 0 10px lightgrey;
+}
+
+#tocontinuetogmail {
+bottom: 2vh;
+}
+
+#signIn {
+    padding-bottom:0 ;
+}
+
+.googleLogo{
+padding-top: 3vh;
+}
+
+
+input {
+border-width: 1px;
+height: 5vh;
+width: 80%;
+border: 50%;
+}
+
+
+
+.textBellowInputField {
+    font-size: smaller;
+}

@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.parent {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    width: 100vw;
+}
+
+.product {
+    text-align: center;
+    width: 14vw;
+    background-color: white;
+    height: 30vh;
+    margin: 10px 15px 0 15px;
+    padding: 10px 0 0 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(227, 227, 227);
+}
+
+span{
+    display: block;
+}
+
+
+#photo {
+    width: 100%;
+}
+
+#price{
+font-weight: 700;
+font-size: 25px;
+}
+
+#fruit-name {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.position2 {
+    position: relative;
+    left: 17vw;
+    bottom: 96vh;
+}
+
+
+.position3 {
+    position: relative;
+    left: 34vw;
+    bottom: 193vh;
+}
+
+
+.position4 {
+    position: relative;
+    left: 51vw;
+    bottom: 288.2vh;
+}
+
+
+.position5 {
+    position: relative;
+    left: 68vw;
+    bottom: 385vh;
+}
+
+
+.position6 {
+    position: relative;
+    left: 85vw;
+    bottom: 482vh;
+}
+
+
+
