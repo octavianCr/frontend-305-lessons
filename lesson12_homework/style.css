@@ -113,3 +113,14 @@ border-radius: 3px;
 box-shadow: 7px 5px 5px rgb(219, 219, 219);
 cursor: pointer;
 }
+
+
+.rights1 > img {
+    height: 40vh;
+}
+
+.first_section_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
