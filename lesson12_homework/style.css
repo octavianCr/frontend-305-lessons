@@ -80,6 +80,7 @@ body{
 font-size: 16px;
 line-height: 22px;
 margin-bottom: -50px;
+
 }
 
 .first_section_left > :nth-child(2) {
@@ -295,6 +296,8 @@ margin: 0%;
     font-size: 16px;
     line-height: 22px;
     color: #2557AB;
+    margin-left: 1vw;
+    margin-bottom: -30px;
 }
 
 .section4_right_top :nth-child(2) {
@@ -356,4 +359,9 @@ opacity: 0.9;
     color: #13253A;
     width: 90%;
     opacity: 89%;
+}
+
+.section5 {
+    width: 100%;
+    height: 50vh;
 }
