@@ -7,6 +7,7 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .first_section {
@@ -127,7 +128,17 @@ cursor: pointer;
     justify-content: center;
 }
 
+.hr_between-section1and2 {
+color: #DCE2E6;
+background-color:#DCE2E6 ;
+width: 100%;
+height: 1px;
+margin: 0%;
+}
+
 /* ___________________________________________________________________________________________________ */
+
+
 
 .section2 {
     display: flex;
@@ -194,3 +205,54 @@ color: #13253A;
 }
 
 /* ______________________________________________________________________________________________________________ */
+
+#section3_plus-sign {
+    color: #FF7F57;
+}
+
+.section3 {
+    background: #F4F6F7;
+    height: 205px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_section3 {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topcontent_section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 400;
+font-size: 46px;
+line-height: 63px;
+color: #13253A;
+}
+
+.section3_content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.section3_content-box > :nth-child(2) {
+    font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #2557AB;
+margin: 0%;
+}
+
+.section3_content-box > :nth-child(1) > p {
+margin: 0%;
+}
