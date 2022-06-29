@@ -30,7 +30,7 @@ body{
 .navigation > img {
   height: 29%;
   margin-top: 35px;
-  margin-right: 59%;
+  margin-right: 45%;
 }
 
 .navigation > ul {
@@ -69,7 +69,7 @@ body{
 .first_section_left {
     display: flex;
     flex-direction: column;
-    padding-left: 2%;
+    padding-left: 7%;
     padding-top: 5%;
    
 }
