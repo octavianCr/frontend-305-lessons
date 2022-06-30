@@ -1,0 +1,51 @@
+body {
+    margin: 0%;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48 }
+
+.nav {
+    width: 100vw;
+    height: 50px;
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav_container {
+    margin-left: 5%;
+    /* border: 1px solid red; */
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_content {
+    border: 1px solid #E6E6E6;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    width: 39%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7px;
+    
+}
+
+.nav_content :nth-child(2) {
+    font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: -0.05em;
+
+color: #0B0736;
+
+}
