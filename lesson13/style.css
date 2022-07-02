@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
     margin: 0%;
+    font-family: 'Lato', sans-serif;
 }
 
 .material-symbols-outlined {
@@ -49,3 +51,61 @@ letter-spacing: -0.05em;
 color: #0B0736;
 
 }
+
+/* ____________________________________________________________________ */
+
+.section1 {
+    /* border: solid 1px grey; */
+    width: 100vw;
+    height: 90vh;
+    background-image: url(./section1-imgs/girlbg.svg) , url(./section1-imgs/bluebg.svg);
+    background-repeat: no-repeat , no-repeat;
+    background-position: right top 10px , right;
+    background-size: 45% , contain;
+    
+}
+
+.main-content__section1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 37%;
+    left: 30%;
+}
+
+.main-content__section1 > span {
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #130F49;
+}
+
+.main-content__section1 :nth-child(2) {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #0B0736;
+    display: flex;
+    width: 400px;
+    }
+
+    .main-content__section1 :nth-child(2) > img {
+        width: 44px;
+    }
+
+    .main-content__section1 :nth-child(3) > button {
+    width: 186px;
+    height: 81px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    background-color: #130F49;
+    text-align: center;
+    border-radius: 22px;
+    }
+
