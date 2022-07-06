@@ -5,6 +5,17 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+}
+
 .section1 {
   height: 90vh;
   width: 100vw;
@@ -69,7 +80,7 @@ body {
   height: 49px;
   background: #03045E;
   border-radius: 5px;
-  color: white;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -134,11 +145,80 @@ body {
   height: 61px;
   background: #0098FF;
   border-radius: 5px;
-  color: white;
+  color: #FFFFFF;
   border: none;
   font-family: inherit;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
+}
+
+.section2 {
+  border: solid red 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 397px;
+}
+.section2 > :nth-child(1) {
+  border: solid red 1px;
+  height: 134px;
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section2 > :nth-child(1) > :nth-child(1) {
+  border: solid red 1px;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #03045E;
+}
+.section2 > :nth-child(1) > :nth-child(2) > :nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.section2 > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) {
+  height: 60px;
+  width: 500px;
+  border: none;
+  background-color: #F6F6F6;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #03045E;
+  opacity: 0.5;
+}
+.section2 > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) {
+  background-color: #0098FF;
+  width: 159px;
+  height: 60px;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
