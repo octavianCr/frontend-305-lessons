@@ -135,7 +135,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    // justify-content: center;
+    justify-content: center;
     width: 100vw;
     height: 397px;
 
@@ -184,8 +184,16 @@ body {
                         line-height: 27px;
                         color: $white;
                     }
-
+                
                 }
             }
     }
+
+    > :nth-child(2) {
+        border: solid red 1px;
+        width: 517px;
+        height: 134px;
+
+    }
+
 }
