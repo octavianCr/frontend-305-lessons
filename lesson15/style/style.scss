@@ -131,22 +131,24 @@ body {
 
 
 .section2 {
-    border: solid red 1px;
+    // border: solid red 1px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    justify-content: space-evenly;
+    margin-left: 7vw;
+    width: 77vw;
     height: 397px;
 
     > :nth-child(1) {
-        border: solid red 1px;
+        // border: solid red 1px;
         height: 134px;
         width: 35%;
         display: flex;
         flex-direction: column;
             > :nth-child(1) {
-                border: solid red 1px;
+                // border: solid red 1px;
                 font-family: 'Ubuntu';
                 font-weight: 700;
                 font-size: 32px;
@@ -190,10 +192,46 @@ body {
     }
 
     > :nth-child(2) {
-        border: solid red 1px;
+        width: 5px;
+        height: 134px;
+        color: $gray;
+        background-color: $gray;
+    }
+
+    > :nth-child(3) {
+        // border: solid red 1px;
         width: 517px;
         height: 134px;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-between;
+        row-gap: 5%;
+        grid-template-rows: 47% 47%;
 
+        > div {
+            // border: solid red 1px;  
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            
+            > h4 {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: $secondary;
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+
+            > p {
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                opacity: 0.3;
+                color: $primary;
+            }
+        }
     }
 
 }
