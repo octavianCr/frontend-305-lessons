@@ -35,7 +35,7 @@ body {
             order: 3;
   }
 
-  .div2 {
+  .div3 {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
