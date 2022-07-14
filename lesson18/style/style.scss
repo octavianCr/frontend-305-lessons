@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+    }
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    height: 100vh;
+    overflow-y: hidden;
+    background-image: url(../img/bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigation {
+    // border: solid red;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+
+    & img {
+        width: 187.06px;
+        height: 30px;
+    }
+    
+    & ul {
+        list-style: none;
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+        
+
+        & li {
+            font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: white;
+        font-family: inherit;
+        }
+    }
+
+    & div{
+        :nth-child(1) {
+            background: transparent;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: white;
+            height: 48px;
+            border: none;
+        }
+
+        :nth-child(2) {
+            background: transparent;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: white;
+            border: 2px solid #22A75D;
+            border-radius: 30px;
+            width: 147px;
+            height: 48px;
+
+        }
+    }
+}
+#mobile {
+    display: none;
+}
+
+#mobiles {
+    display: none;
+}
+
+// _________________________________________________________
+
+.content {
+    display: flex;
+    padding-left: 5vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 83%;
+
+    &__text {
+        color: white;
+        width: 45%;
+        height: 100%;
+        font-family: inherit;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        
+
+        & a {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            background: -webkit-linear-gradient(#2B3087, #00B4EC);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+
+    & h1 {
+        font-weight: 700;
+font-size: 48px;
+line-height: 54px;
+letter-spacing: -0.02em;
+// width: 562px;
+width: 79%;
+height: 162px;
+    }
+
+    & p {
+        font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+opacity: 0.6;
+    }
+
+    & button {
+        width: 147px;
+        height: 48px;
+        background-color: #22A75D;
+        color: white;
+        border-radius: 50px;
+    }
+
+}
+
+> :nth-child(2) {
+    background-image: url(../img/leftimg.svg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 50%;
+    height: 70vh;
+    
+
+}
+
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        overflow-y: visible !important;
+    }
+
+    .navigation {
+        padding: 0%;
+        height: 10vh;
+        justify-content: space-around;
+        & ul {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            align-items: center;
+            background-color: gray;
+            height: 200px;
+            width: 100vw;
+            z-index: 999;
+
+            & li {
+                border: solid 3px rgb(46, 46, 46);
+                width: 115%;
+                height: 25%;
+                text-align: center;
+                padding-left: 32px;
+            }
+        }
+
+        & div {
+            display: none;
+        }
+
+    }
+
+    #mobile {
+        display: block;
+        align-self: center;
+    }
+
+    // #mobiles {
+    //     display: block;
+    //     align-self: center;
+    // }
+
+    .content {
+        padding:0 ;
+        height: 90vh;
+        width: 100%;
+        flex-direction: column;
+        
+        &__text {
+            height: 60%;
+            width: 100%;
+
+            & a {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 24px;
+            }
+
+            & h1 {
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 40px;
+                width: 335px;
+                height: 160px;
+            }
+
+            & p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                width: 335px;
+                height: 132px;
+            }
+        }
+
+        > :nth-child(2) {
+            height: 40%;
+            width: 100%;
+    }
+
+    }
+}
