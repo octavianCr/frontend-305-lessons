@@ -495,3 +495,156 @@ margin-top: 12px;
 }
 
 // ______________________________DESKTOP^____________________________________________________
+
+@media screen and (max-width: 480px) {
+body {
+    max-width: 100vw;
+}
+
+    .navigation{
+        // height: 40vh;
+        width: 480px;
+        & form {
+            >:nth-child(1) {
+                width: 470px;
+                text-align: left;
+            }
+        }
+    }
+
+
+
+    .spain-top {
+        height: 55vh;
+        >:nth-child(1) {
+            align-self: flex-start;
+            padding: 0%;
+            margin: 0%;
+            width: 100%;
+            align-items: center;
+
+            >:nth-child(3) {
+                // margin-left: -5%;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+
+    .spain-bottom {
+        height: 55vh;
+        >:nth-child(1) {
+            align-self: flex-start;
+            padding: 0%;
+            margin: 0%;
+            width: 100%;
+            align-items: center;
+
+            >:nth-child(3) {
+                // margin-left: -5%;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+
+    .review {
+
+        
+        > :nth-child(1) {
+            font-size: 26px;
+        }
+
+        &__content {
+            flex-direction: column;
+            align-items: center;
+            margin-top: -150px;
+            
+
+            & img {
+                height: 150px;
+                border-radius: 5000%;
+                align-self: center;
+            }
+
+            >:nth-child(2) {
+                :nth-child(2) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .secondNav {
+        height: 25vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        & h1 {
+            text-align: center;
+        }
+
+        & ul {
+            align-self: center;
+            flex-direction: column;
+            width: 95%;
+            text-align: center;
+        }
+    }
+
+    .whyUs {
+        flex-direction: column;
+        align-items: center;
+
+        &__text {
+            width: 90%;
+            height: 50%;
+
+            >:nth-child(2) {
+                width: 99%;
+            }
+        }
+
+        &__img {
+            position: absolute;
+            flex-direction: row;
+            width: 100%;
+            z-index: 999;
+            height: 40%;
+            align-items: center;
+            top: 170%;
+
+            >:nth-child(1) {
+                align-self: center;
+            }
+        }
+    }
+
+    .steps {
+        height:20vh ;
+
+        & div {
+            width: 30%;
+            height: 15%;
+            & img {
+                width: 10%;
+            }
+                
+        }
+
+        width: 100vw;
+        & span{
+            font-size: 20px;
+        }
+    }
+
+
+    // unable to target the arch, add an id to it later !not important
+#arch {
+    width: 63vw;
+    height: 3vh;
+    padding-top: 7.7%;
+}
+
+}
