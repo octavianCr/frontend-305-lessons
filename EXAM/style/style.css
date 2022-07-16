@@ -94,6 +94,11 @@ body::-webkit-scrollbar {
   height: 63px;
   background: #5474FD;
   border: 2px solid #FFFFFF;
+  cursor: pointer;
+}
+.navigation form > :nth-child(2) :hover {
+  -webkit-box-shadow: 11 11 11px rgba(216, 13, 13, 0.2);
+          box-shadow: 11 11 11px rgba(216, 13, 13, 0.2);
 }
 .navigation > :nth-child(4) {
   display: -webkit-box;
@@ -331,7 +336,7 @@ body::-webkit-scrollbar {
   width: 30%;
   height: 374px;
   background: #232323;
-  opacity: 0.9;
+  opacity: 0.8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -400,7 +405,7 @@ body::-webkit-scrollbar {
   width: 30%;
   height: 374px;
   background: #232323;
-  opacity: 0.9;
+  opacity: 0.8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -574,6 +579,18 @@ body::-webkit-scrollbar {
           justify-content: space-between;
   width: 200px;
   margin-top: 25px;
+}
+
+#interactive:hover {
+  opacity: 0.9;
+  -webkit-box-shadow: 4px 3px 4px 3px #6c6c6c;
+          box-shadow: 4px 3px 4px 3px #6c6c6c;
+}
+
+#interactive:focus {
+  background-color: #05d1f5;
+  border: none;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 480px) {
