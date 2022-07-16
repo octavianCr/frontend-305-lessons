@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap");
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
@@ -16,6 +17,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
 }
 
 .navigation {
@@ -442,7 +448,7 @@ body {
 }
 
 .review {
-  height: 90vh;
+  height: 80vh;
   width: 100vw;
   background-image: url(../img/review-BG.svg);
   background-size: cover;
@@ -478,7 +484,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 90%;
-  height: 45%;
+  height: 40%;
 }
 .review__content > :nth-child(2) {
   display: -webkit-box;
@@ -505,11 +511,67 @@ body {
   text-transform: uppercase;
   -ms-flex-item-align: start;
       align-self: flex-start;
+  padding-left: 5%;
 }
 .review__content > :nth-child(2) :nth-child(2) {
-  font-family: inherit;
+  font-family: "Albert Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 26px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer {
+  height: 30vh;
+  width: 100vw;
+  background: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer > :nth-child(1) {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+}
+.footer > :nth-child(2) {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1.6px;
+  color: #FFFFFF;
+  margin-top: 12px;
+}
+.footer__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 200px;
+  margin-top: 25px;
 }
