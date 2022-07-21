@@ -2,9 +2,11 @@
 // ______________________task1
 
 
-// let namee = prompt ("enter name");
+// let name = prompt ("enter name");
 
-// alert("hello" + " " + namee );
+// // alert("hello" + " " + name );
+
+// alert(`hello ${name}`)
 
 // ___________________________task2
 
@@ -12,7 +14,11 @@
 
 // let ageInput = prompt ("enter age");
 
-// age.innerText = 2022 - ageInput ;
+// const YEAR = 2022
+
+// alert (YEAR - parseFloat(ageInput))
+
+// age.innerText = year - ageInput ;
 
 // ___________________________task3
 
@@ -22,11 +28,11 @@
 
 // ___________________________task4
 
-// const pi = 3.14159;
+// const PI = 3.14159;
 
 // let radius = prompt("circle radius");
 
-// alert(pi * (radius*2));
+// alert(PI * (radius*2));
 
 // ___________________________task5
 
@@ -52,13 +58,26 @@
 
 // let memory = prompt("memory amount GB")
 
-// let operation = Math.trunc((memory*1000)/820)
+// let operation = parseInt((memory*1024)/820)
 
 // alert(operation + ", " + "820mb files")
 
 // ___________________________task8
 
+// let walet = prompt("amount")
 
+// let chocolatePrice = prompt(2)
+
+// let numberOfChocolates = parseInt(walet / chocolatePrice)
+
+// alert( numberOfChocolates)
+// alert(walet - numberOfChocolates * chocolatePrice)
+
+// let amount = prompt ("amount")
+
+// let yearlyIntrest = 5 * (amount / 100)
+
+// alert( parseInt(yearlyIntrest) / 6)
 
 
 
