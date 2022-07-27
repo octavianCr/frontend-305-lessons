@@ -97,6 +97,68 @@
 // _________TASK5^______________________________________________
 
 
+// console.log('hello world')
+
+// console.log(2 + 3)
+
+// let base = prompt ("base")
+// let height = prompt ("height")
+
+// const AREA = (base * height) / 2
+
+// let a = 10
+// let b = 20
+// [a , b] = [b , a]
+// console.log(a)
+
+// let number = prompt("nr")
+
+// if(number > 0) {
+//     console.log("positive")
+// }else if(number < 0){
+//     console.log("negative")
+// }else{
+//     console.log("0")
+// }
+
+// let number = prompt("nr")
+
+// if(number % 2 === 0){
+//     console.log("even")
+// }else{
+//     console.log("odd")
+// }
+
+// let no1 = 1;
+// let no2 = 2;
+// let no3 = 3;
+
+// if(no1 > no2 && no3){
+//     console.log('nr 1')
+// } else if(no2 > no1 && no3) {
+//     console.log('nr 2')
+// }else if(no3 > no2 && no1){
+//     console.log('nr 3')
+// }
+
+// let n = prompt("nr")
+// let randomNubber = 1++
+// let factorial = 1 * randomNubber * n;
+
+// for (n !== 0) {
+//     if(randomNubber < n) {
+//         factorial *=
+//     }
+// }
+
+
+
+
+
+
+
+
+
 
 
 
