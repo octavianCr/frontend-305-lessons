@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+
+
+<div class="calculator">
+        <div id="display" class="calculator__display"></div>
+
+        <div class="calculator__buttons">
+
+            <button onclick="numberFunction(7)" class="number" >7</button>
+
+            <button onclick="numberFunction(8)"  class="number">8</button>
+
+            <button onclick="numberFunction(9)"  class="number" >9</button>
+
+            <button onclick="operatorFunction('*')" >*</button>
+
+            <button onclick="numberFunction(4)"  class="number"  >4</button>
+
+            <button onclick="numberFunction(5)"  class="number" >5</button>
+
+            <button onclick="numberFunction(6)"  class="number"  >6</button>
+
+            <button onclick="operatorFunction('-')"  >-</button>
+
+            <button onclick="numberFunction(1)" class="number"  >1</button>
+
+            <button onclick="numberFunction(2)" class="number" >2</button>
+
+            <button onclick="numberFunction(3)" class="number" >3</button>
+
+            <button onclick="operatorFunction('+')"  >+</button>
+
+            <button onclick="numberFunction(0)" class="number">0</button>
+
+            <button onclick="numberFunction('.')" value=".">.</button>
+
+            <button onclick="equalFunction()">=</button>
+
+            <button onclick="history.go(0)">C</button>
+
+
+        </div>
+</div>
+
+
+
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+
+body{
+    background-color: #3f87a6;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 50% 0 30%;
+    box-shadow: 25px 10px 47px 29px lightblue;
+
+
+    &__buttons{
+        height: 480px;
+        width: 480px;
+        display: grid;
+        grid-template-columns: 120px 120px 120px 120px;
+        grid-template-rows: 120px 120px 120px 120px;
+        border: solid;
+
+        button{
+            font-family: inherit;
+            font-size: 60px;
+        }
+
+        button:hover{
+            color: white;
+            background-color: black;
+            font-size: 77px;
+        }
+
+        button:focus{
+            font-size: 70px;
+        }
+    }
+
+    &__display{
+        height: 120px;
+        width: 459px;
+        // background-color: white;
+
+        border: solid black;
+        display: flex;
+        align-items: center;
+        padding-left: 21px;
+        font-size: 55px;
+        background-color: #487f62;
+        color: rgb(53, 80, 66);
+    }
+}
