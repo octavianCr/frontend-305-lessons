@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+body {
+  background-color: rgb(2, 2, 25);
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #FFFFFF;
+}
+
+.navigation {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.navigation__items {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 27%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  right: 20%;
+}
+.navigation__btn {
+  font-family: inherit;
+}
+.navigation__btn > :nth-child(1) {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  background: transparent;
+}
+.navigation__btn > :nth-child(2) {
+  border: 2px solid #22A75D;
+  border-radius: 52px;
+  width: 147px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+.menu {
+  display: none;
+}
+
+.arrows {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 9vh;
+}
+.arrows p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+.arrows button {
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 150%;
+  background: transparent;
+  border: 2px solid rgb(50, 77, 86);
+  text-align: center;
+}
+
+.profiles {
+  margin-top: 4vh;
+  height: 51vh;
+  width: 17vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 83%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.profiles__first {
+  background-color: #0D0B16;
+  width: 378px;
+  height: 560px;
+  padding: 0 0.5vw 0 0.5vw;
+}
+.profiles__first > :nth-child(1) {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.profiles__first > :nth-child(2) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.lee {
+  background-image: url("../img/fffffffff.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 480px) {
+  .navigation__items {
+    display: none;
+  }
+  .navigation__btn {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    font-size: 75px;
+  }
+
+  .arrows div {
+    display: none;
+  }
+}
