@@ -7,12 +7,18 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: rgb(48, 45, 45);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgb(31, 30, 30);
   color: white;
   font-family: "Roboto", sans-serif;
   width: 100vw;
   overflow-x: hidden;
   margin: 0;
+  background-image: url(../img/BGlines.svg);
+  background-size: 100vw;
+  background-repeat: repeat-y;
 }
 
 .blue-item {
@@ -62,9 +68,11 @@ body {
 }
 
 .slider {
-  height: 900px;
-  width: 100%;
-  border: red solid;
+  margin-top: 17vh;
+  height: 100vh;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,11 +84,16 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.slider h2 {
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 132.9%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
 
 .your-class {
-  border: red solid;
-  height: 100%;
-  width: 50%;
+  width: 70vw;
 }
 
 .theWood {
@@ -251,4 +264,102 @@ body {
   font-size: 30px;
   line-height: 36px;
   color: #F5F5F5;
+}
+
+.contact {
+  width: 70%;
+  padding: 0 15% 0 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 33vh;
+}
+.contact__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact__info h2 {
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 132.9%;
+}
+.contact__info ul {
+  list-style: none;
+}
+.contact__info ul li {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+}
+.contact__map :nth-child(1) {
+  width: 493px;
+  height: 428px;
+  border-radius: 19px;
+}
+
+.footer {
+  width: 90%;
+  padding: 0 5% 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 9;
+  background-color: #000000;
+}
+.footer__content {
+  width: 90%;
+  min-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__content ul {
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+}
+.footer a {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 139.4%;
+  padding: 33px 0 33px 0;
 }

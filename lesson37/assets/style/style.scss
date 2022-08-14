@@ -4,12 +4,16 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: rgb(48, 45, 45);
+    align-items: center;
+    background-color: rgb(31, 30, 30);
     color: white;
     font-family: 'Roboto', sans-serif;
     width: 100vw;
     overflow-x: hidden;
     margin: 0;
+    background-image: url(../img/BGlines.svg);
+    background-size:100vw;
+    background-repeat: repeat-y;
 }
 
 .blue-item{
@@ -44,19 +48,32 @@ body{
 
 
 .slider{
-    height: 900px;
-    width: 100%;
-    border: red solid;
+    margin-top: 17vh;
+    height: 100vh;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    // border: red solid;
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    h2{
+        font-weight: 500;
+        font-size: 90px;
+        line-height: 132.9%;
+        align-self: flex-start;
+    }
 }
 
 
 .your-class{
-    border: red solid;
-    height: 100%;
-    width: 50%;
+    // border: red solid;
+    width: 70vw;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
 }
 
 .theWood{
@@ -185,4 +202,80 @@ align-items: center;
         font-size: 30px;
         line-height: 36px;
         color: #F5F5F5;
+    }
+
+    .contact{
+        width: 70%;
+        padding: 0 15% 0 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 33vh;
+
+
+        &__info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            h2{
+                font-weight: 500;
+                font-size: 90px;
+                line-height: 132.9%;
+            }
+
+            ul{
+                list-style: none;
+                li{
+                    font-weight: 500;
+                    font-size: 30px;
+                    line-height: 139.4%;
+                }
+            }
+        }
+
+        &__map{
+            :nth-child(1){
+                width: 493px;
+                height: 428px;
+                border-radius: 19px;
+            }
+        }
+    }
+
+    .footer{
+        width: 90%;
+        padding: 0 5% 0 5%;
+        display: flex;
+        flex-direction: column;
+        z-index: 9;
+        background-color: #000000;
+
+        &__content{
+            width: 90%;
+            min-width: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            ul{
+                width: 100%;
+                list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 139.4%;
+            }
+        }
+        a{
+        color: #F5F5F5;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 139.4%;
+        padding: 33px 0 33px 0;
+        }
     }
