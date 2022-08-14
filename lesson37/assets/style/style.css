@@ -21,6 +21,10 @@ body {
   background-repeat: repeat-y;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .blue-item {
   color: #A3B8D7 !important;
 }
