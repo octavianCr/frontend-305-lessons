@@ -1,0 +1,64 @@
+.nav__social > :nth-child(1) {
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+.nav__social > :nth-child(1):hover {
+  opacity: 0.4;
+}
+.nav__social > :nth-child(2) {
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+.nav__social > :nth-child(2):hover {
+  opacity: 0.4;
+}
+.nav__social > :nth-child(3) {
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+.nav__social > :nth-child(3):hover {
+  opacity: 0.4;
+}
+
+.arrow-down {
+  -webkit-transition: 9s;
+  transition: 9s;
+  cursor: pointer;
+}
+
+.arrow-down:hover {
+  opacity: 1;
+  color: rgb(28, 184, 0);
+}
+
+.footer__social > :nth-child(1) {
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+.footer__social > :nth-child(1):hover {
+  opacity: 0.4;
+}
+.footer__social > :nth-child(2) {
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+.footer__social > :nth-child(2):hover {
+  opacity: 0.4;
+}
+.footer__social > :nth-child(3) {
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+.footer__social > :nth-child(3):hover {
+  opacity: 0.4;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,69 @@
+
+
+.nav__social{
+    > :nth-child(1){
+        transition: 2s;
+        cursor: pointer;
+    }
+    > :nth-child(1):hover{
+        opacity: .4;
+    }
+
+    > :nth-child(2){
+        transition: 2s;
+        cursor: pointer;
+    }
+    > :nth-child(2):hover{
+        opacity: .4;
+    }
+
+    > :nth-child(3){
+        transition: 2s;
+        cursor: pointer;
+    }
+    > :nth-child(3):hover{
+        opacity: .4;
+    }
+}
+
+.arrow-down{
+    transition: 9s;
+    cursor: pointer;
+}
+
+.arrow-down:hover{
+    opacity: 1;
+    color: rgb(28, 184, 0);
+}
+
+
+.footer__social{
+    > :nth-child(1){
+        transition: 2s;
+        cursor: pointer;
+    }
+    > :nth-child(1):hover{
+        opacity: .4;
+    }
+
+    > :nth-child(2){
+        transition: 2s;
+        cursor: pointer;
+    }
+    > :nth-child(2):hover{
+        opacity: .4;
+    }
+
+    > :nth-child(3){
+        transition: 2s;
+        cursor: pointer;
+    }
+    > :nth-child(3):hover{
+        opacity: .4;
+    }
+
+}
+
+button{
+    cursor: pointer;
+}
