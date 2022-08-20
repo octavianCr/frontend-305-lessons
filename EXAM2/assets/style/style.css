@@ -38,6 +38,7 @@ button:focus {
 
 header {
   background-color: rgb(16, 91, 176);
+  background-image: url(../img/bg1.svg);
   height: 70vh;
   width: 100%;
   display: -webkit-box;
@@ -408,10 +409,10 @@ header {
   display: grid;
   -ms-grid-columns: 214px 75px 214px;
   grid-template-columns: 214px 214px;
-  -ms-grid-rows: 285px;
-  grid-template-rows: 285px;
+  -ms-grid-rows: 285px285px;
+  grid-template-rows: 285px285px;
   -webkit-column-gap: 75px;
-      -moz-column-gap: 75px;
+     -moz-column-gap: 75px;
           column-gap: 75px;
   row-gap: 10px;
 }
@@ -524,6 +525,7 @@ header {
   width: 100vw;
   height: 524px;
   background-color: rgb(16, 91, 176);
+  background-image: url(../img/bg1.svg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
